@@ -3,9 +3,9 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-int upButton = 10;
-int downButton = 11;
-int selectButton = 12;
+int upButton = 2;
+int downButton = 3;
+int selectButton = 4;
 int menu = 1;
 
 void setup() {
